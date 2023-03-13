@@ -611,6 +611,7 @@ footer {
 }
 footer img.logo {
   height: 80px;
+  margin-top: 30px;
 }
 footer img.qr-code {
   height: 70px;
@@ -1677,6 +1678,11 @@ input[type=number] {
   .register .form-box label {
     -webkit-margin-end: 10px;
             margin-inline-end: 10px;
+  }
+  footer img.logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 60px;
   }
 }
 /* galaxy S5 */

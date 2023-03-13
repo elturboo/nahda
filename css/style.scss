@@ -761,6 +761,7 @@ footer {
 
   img.logo {
     height: 80px;
+    margin-top: 30px;
   }
   img.qr-code {
     height: 70px;
@@ -2072,6 +2073,11 @@ input[type="number"] {
   }
   .register .form-box label {
     margin-inline-end: 10px;
+  }
+  footer img.logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 60px;
   }
 }
 
