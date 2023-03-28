@@ -1520,6 +1520,20 @@ input[type=number] {
           appearance: textfield;
 }
 
+.project-last {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.project-last .img-box img.top {
+  height: 255px;
+}
+.project-last.project-box .number-box {
+  text-align: start !important;
+}
+.project-last:nth-child(even) .row {
+  flex-direction: row-reverse;
+}
+
 /* Responsive */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
